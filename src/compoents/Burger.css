@@ -1,0 +1,129 @@
+.burgerIngredients {
+    height: 290px;
+    width: 100%;
+    overflow: auto;
+}
+
+.burgerIngredients p {
+    text-align: center;
+}
+
+.topSide {
+    background-image: url(../Images/top.jpg);
+    background-size: 300px;
+    height: 110px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottomSide {
+    background-image: url(../Images/bottom.jpg);
+    background-size: 300px;
+    height: 60px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.saladSide {
+    background-image: url(../Images/lettuse.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+}
+
+.baconSide {
+    background-image: url(../Images/tomato.jpg);
+    background-size: 300px;
+    height: 20px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cheeseSide {
+    background-image: url(../Images/cheese.jpg);
+    background-size: 300px;
+    height: 15px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meatSide {
+    background-image: url(../Images/meat.jpg);
+    background-size: 300px;
+    height: 49px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ingredientsBlock {
+    background-color: #cc7b00;
+    margin: 30px auto 0;
+    display: table;
+    max-width: 200;
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .ingredientsBlock p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+} */
+.ingrBtns {
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ingrBtn {
+    border: 0;
+    background-color: #995c00;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 100px;
+}
+
+.ingrBtnLess {
+    border: none;
+    background-color:#a9a0a0;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: table;
+    width: 100px;
+}
+
+.BtnOrder {
+        background-color: yellow;
+    color: brown;
+    font-weight: bold;
+    width: 10%;
+    font-size: 15px;
+    padding: 10px;
+    display: inline;
+    cursor: pointer;
+
+}

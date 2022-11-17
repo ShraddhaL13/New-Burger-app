@@ -1,0 +1,42 @@
+.img {
+    width: 20%;
+    height: 10px;
+}
+.navbar {
+    width: 100%;
+    background-color:#873e23;
+    overflow: auto;
+
+  }
+  .logo{
+    background-color: white;
+    padding:5px;
+    margin:10px;
+    border-radius: 25%;
+  }
+    
+  .navbar a {
+    float: right;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color:lightpink;
+  }
+  
+  .active {
+    background-color: #b36c00;
+  }
+  .p{
+    font-weight: bold;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
